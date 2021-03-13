@@ -9,10 +9,10 @@ class Application:
         return a-b
     def mul(self,a,b):
         """This is multiplication method"""
-        return 0
+        return a*b
     def div(self,a,b):
         """This is division method"""
-        return 0
+        return a/b
     def sqrt(self,val):
         """This is square root method"""
         return 0

@@ -9,9 +9,9 @@ class Test(unittest.TestCase):
     def test_diff(self):
         assert self.obj.sub(4,1) , 3
     def test_mul(self):
-        assert self.obj.mul(3,3) , 9
+        assert self.obj.mul(4,3) , 12
     def test_div(self):
-        assert self.obj.div(4,4) , 1
+        assert self.obj.div(4,2) , 2
     def test_sqrt(self):
         assert self.obj.sqrt(9) , 3
     def test_log(self):

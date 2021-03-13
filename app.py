@@ -15,10 +15,10 @@ class Application:
         return a/b
     def sqrt(self,val):
         """This is square root method"""
-        return 0
+        return math.sqrt(val)
     def log(self,val):
         """This is logarithm method"""
-        return 0
+        return math.log10(val)
     def exp(self,base,power):
         """This is exponential method"""
-        return 0
+        return math.pow(base,power)

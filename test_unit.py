@@ -14,8 +14,6 @@ class Test(unittest.TestCase):
         assert self.obj.div(4,4) , 1
     def test_sqrt(self):
         assert self.obj.sqrt(9) , 3
-    def test_sin(self):
-        assert self.obj.sin(math.pi/2) , 1
     def test_log(self):
         assert self.obj.log(10) , 1
     def test_exp(self):

@@ -5,9 +5,9 @@ class Test(unittest.TestCase):
     def setUp(self):
         self.obj = Application()
     def test_sum(self):
-        assert self.obj.add(1,1) , 2
+        assert self.obj.add(3,1) , 4
     def test_diff(self):
-        assert self.obj.sub(2,1) , 1
+        assert self.obj.sub(4,1) , 3
     def test_mul(self):
         assert self.obj.mul(3,3) , 9
     def test_div(self):

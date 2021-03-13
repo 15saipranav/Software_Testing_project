@@ -3,10 +3,10 @@ import math
 class Application:
     def add(self,a,b):
         """This is addition method"""
-        return 0
+        return a+b
     def sub(self,a,b):
         """This is subtraction method"""
-        return 0
+        return a-b
     def mul(self,a,b):
         """This is multiplication method"""
         return 0

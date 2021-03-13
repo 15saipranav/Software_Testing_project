@@ -1,0 +1,16 @@
+import math
+class Application:
+    def add(self,a,b):
+        return a+b
+    def sub(self,a,b):
+        return a-b
+    def mul(self,a,b):
+        return a*b
+    def div(self,a,b):
+        return a/b
+    def sqrt(self,val):
+        return math.sqrt(val)
+    def log(self,val):
+        return math.log10(val)
+    def exp(self,base,power):
+        return math.pow(base,power)
